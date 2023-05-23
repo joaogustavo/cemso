@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset da modelo */
+.titulos, .conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+.corpo, .conteudos {
+	margin-bottom: 0;
+	max-width: 2000px;
+	padding: 0;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* quem somos + saiba mais */
+.quemsomos-saibamais-container {
+	background: #e7e4da;
+	width: 100%;
+}
+.quemsomos-saibamais {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding-top: 8px;
+	width: 100%;
+}
+/* quem somos */
+.quemsomos-container {
+	display: inline-block;
+	max-width: 500px;
+	width: 100%;
+}
+.quemsomos-cabecalho {
+	border-bottom: solid 3px #fff;
+	border-left: solid 6px #fff;
+	color: #646464;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 3rem;
+	margin: 0 auto;
+	margin-bottom: 7px;
+	max-width: 459px;
+	padding: 6px 7px;
+	width: 100%;
+}
+.quemsomos {
+	background: url(../img/home-quemsomos-fundo.jpg) no-repeat left 62px #fff;
+	border-radius: 0 12px 0 0;
+	-webkit-border-radius: 0 12px 0 0;
+	-moz-border-radius: 0 12px 0 0;
+	color: #646464;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 1.3rem;
+	line-height: 2rem;
+	margin-right: 15px;
+	padding: 24px 14px;
+	padding-bottom: 22px;
+	padding-left: 270px;
+	position: relative;
+	text-align: justify;
+}
+.quemsomos:after {
+	background: url(../img/home-quemsomos-sombra.png) no-repeat left top;
+	content: "";
+	display: block;
+	height: 310px;
+	position: absolute;
+	right: -13px;
+	top: 58px;
+	width: 13px;
+}
+.quemsomos-link {
+	background: #00a651;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.047);
+	color: #fff;
+	display: block;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 2rem;
+	margin: 15px auto;
+	max-height: 30px;
+	max-width: 129px;
+	padding: 2px;
+	text-align: center;
+	width: 100%;
+}
+.quemsomos-link:hover {
+	background: #2466a6;
+	color: #fff;
+	text-decoration: none;
+}
+/* saiba mais */
+.saibamais-container-geral {
+	display: inline-block;
+	float: right;
+	margin-bottom: 14px;
+	margin-right: 2%;
+	max-width: 643px;
+	width: 100%;
+}
+.saibamais-cabecalho {
+	border-bottom: solid 4px #26609a;
+	color: #646464;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 2rem;
+	line-height: 2.2rem;
+	padding-left: 22px;
+	padding-top: 25px;
+	position: relative;
+	width: 100%;
+}
+.saibamais-titulo {
+	max-width: 125px;
+	width: 100%;
+}
+.saibamais-botao {
+	max-width: 162px;
+	position: absolute;
+	right: 0;
+	top: 11px;
+}
+.saibamais-container {
+	background: #fff;
+	padding: 32px 16px;
+	padding-bottom: 14px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.saibamais-container:after {
+	background: url(../img/home-saiba-mais-sombra.png) no-repeat left top;
+	bottom: -14px;
+	content: "";
+	display: block;
+	height: 14px;
+	left: 108px;
+	position: absolute;
+	width: 498px;
+}
+.saibamais {
+	display: inline-block;
+	line-height: 1.5rem;
+	margin: 0 30px;
+	max-width: 236px;
+	overflow: visible;
+	text-align: left;
+	vertical-align: text-top;
+	width: 100%;
+}
+.saibamais a {
+	color: #215a92;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 1.3rem;
+}
+.saibamais-img {
+	border: solid 1px #73b8f5;
+	display: block;
+	margin-bottom: 18px;
+}
+.saibamais-data {
+	background: #215a92;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.047);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	padding: 6px;
+	text-align: center;
+	width: 100%;
+}
+.saiba-mais-chamada {
+	color: #646464;
+	display: block;
+	font-family: 'pf_dindisplay_probold';
+	font-size: 1.3rem;
+	margin-bottom: 20px;
+}
+/* divisao conteudos */
+.divisao {
+	float: left;
+	margin: 40px 0;
+	margin-bottom: 0px;
+	position: relative;
+	width: 100%;
+}
+.divisao:before {
+	border-bottom: solid 2px #2b6daf;
+	bottom: 17px;
+	content: "";
+	display: block;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.divisao:after {
+	background: url(../img/icone-logo.png) no-repeat center center;
+	background-size: 36px 35px;
+	bottom: 0px;
+	content: "";
+	display: block;
+	height: 35px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+/* localizacao */
+.localizacao-container {
+	background: url(../img/home-mapa-sombra.png) no-repeat center bottom;
+	float: left;
+	padding-bottom: 25px;
+	width: 100%;
+}
+.localizacao-cabecalho {
+	font-family: 'pf_dindisplay_proregular';
+	font-size: 2.5rem;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 1170px;
+	padding: 0 2%;
+	text-align: right;
+	width: 100%;
+}
+.localizacao-mapa {
+	width: 100%;
+}
+@media screen and (max-width: 1183px) and (min-width: 768px) {
+.quemsomos-container {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.saibamais-container-geral {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.localizacao-cabecalho {
+	text-align: left;
+}
+}
+@media screen and (max-width: 767px) {
+.corpo {
+	margin-top: 72px;
+}
+.quemsomos-container {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.saibamais-container-geral {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-top: 25px;
+	max-width: 751px;
+}
+.saibamais-botao {
+	right: 3%;
+}
+.localizacao-cabecalho {
+	text-align: left;
+}
+}
+@media screen and (max-width: 644px) {
+.saibamais {
+	margin: 0 2%;
+}
+}
+@media screen and (max-width: 644px) {
+.saibamais-container:after {
+	background-size: contain;
+	left: 15%;
+	width: 70%;
+}
+}
+@media screen and (max-width: 565px) {
+.saibamais-container div:first-child {
+	border-bottom: solid 1px #EBEBEB;
+	margin-bottom: 15px;
+}
+.saibamais {
+	max-width: 545px;
+	margin: 0 auto;
+}
+.saibamais-img {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.saibamais-data {
+	display: inline-block;
+	margin-top: 10px;
+	width: 45%;
+}
+.saiba-mais-chamada {
+	display: inline-block;
+	width: 52%;
+}
+}
+@media screen and (max-width: 565px) {
+.saibamais {
+	border: solid 1px #EBEBEB;
+	padding: 15px 8px;
+}
+.saibamais-img {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.saibamais-data {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 0;
+	width: 100%;
+}
+.saiba-mais-chamada {
+	display: block;
+	margin-bottom: 5px;
+	width: 100%;
+}
+}
+@media screen and (max-width: 515px) {
+.quemsomos {
+	background-image: none;
+	padding-left: 14px;
+}
+.quemsomos:after {
+	background-size: contain;
+	margin-right: 0;
+	max-height: 200px;
+}
+}
+@media screen and (max-width: 350px) {
+.saibamais-titulo {
+	max-width: 100px;
+}
+}
